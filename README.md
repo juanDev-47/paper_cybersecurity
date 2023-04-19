@@ -1,5 +1,5 @@
 ## sitio web del paper
-(Cybersecurity)[https://paper-cybersecurity.netlify.app/]
+[Cybersecurity](https://paper-cybersecurity.netlify.app/)
 
 # Ciberseguridad y técnicas de inteligencia artificial
 
