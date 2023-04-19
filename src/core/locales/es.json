@@ -7,6 +7,9 @@
     "text3": "Medellín, Colombia",
     "goals": "Objetivos",
     "goal1": "Evaluar la capacidad de adaptación de los sistemas de detección de amenazas basados en inteligencia artificial, mediante el análisis y la mitigación de posibles adversidades, como ataques de denegación de servicio, o falsificaciones, para fortalecer la efectividad y la confiabilidad de estos sistemas.",
-    "goal2": "Analizar las distintas técnicas de defensa mediante la inteligencia artificial aplicada a la ciberseguridad."
+    "goal2": "Analizar las distintas técnicas de defensa mediante la inteligencia artificial aplicada a la ciberseguridad.",
+    "entities": "Entes",
+    "entity1": "Diferentes actores o grupos de interés relacionados con la ciberseguridad y la protección de sistemas y datos.",
+    "entity2": "Profesionales de la seguridad informática, empresas, organizaciones, usuarios de internet, ciber-atacantes, desarrolladores de software y dispositivos, entre otros."
   }
 }

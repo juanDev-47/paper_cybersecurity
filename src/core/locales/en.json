@@ -7,6 +7,9 @@
     "text3": "Medellin, Colombia",
     "goals": "Goals",
     "goal1": "Assess the adaptability capacity of threat detection systems based on artificial intelligence, through the analysis and mitigation of potential adversities, such as denial of service attacks or forgeries, to strengthen the effectiveness and reliability of these systems.",
-    "goal2": "Analyze the different defense techniques through artificial intelligence applied to cybersecurity."
+    "goal2": "Analyze the different defense techniques through artificial intelligence applied to cybersecurity.",
+    "entities": "Entities",
+    "entity1": "Different actors or interest groups related to cybersecurity and the protection of systems and data.",
+    "entity2": "Information security professionals, companies, organizations, Internet users, cyber-attackers, software and device developers, among others."
   }
 }
