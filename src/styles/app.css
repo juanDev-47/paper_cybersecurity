@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-separador {
+  @apply w-4/5 md:w-full lg:w-4/5 h-10 text-center mx-auto bg-amber-200 hover:bg-amber-300 hover:cursor-pointer;
+}
+
+body {
+  font-family: roboto, sans-serif;
+}
