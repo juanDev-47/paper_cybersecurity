@@ -1,6 +1,12 @@
 {
-  "translation" : {
-    "tittle1" : "QUESTION",
-    "info1" : "What artificial intelligence techniques are being used to improve detection and response to threats in the field of cybersecurity?"
+  "translation": {
+    "tittle1": "What artificial intelligence techniques are being used to improve detection and response to threats in the field of cybersecurity?",
+    "info1": "What",
+    "text1": "Systems Engineering Faculty",
+    "text2": "University of Antioquia",
+    "text3": "Medellin, Colombia",
+    "goals": "Goals",
+    "goal1": "Assess the adaptability capacity of threat detection systems based on artificial intelligence, through the analysis and mitigation of potential adversities, such as denial of service attacks or forgeries, to strengthen the effectiveness and reliability of these systems.",
+    "goal2": "Analyze the different defense techniques through artificial intelligence applied to cybersecurity."
   }
 }

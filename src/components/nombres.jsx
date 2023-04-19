@@ -1,12 +1,15 @@
 import React from 'react'
 
 const Nombres = (props) => {
-  const { nombre, texto1, } = props;
+  const { name, text1, text2, text3, email } = props;
   return (
-    <div className='w-full '>
-      <div className='w-4/5 mx-auto'>
-        <p className=''>{nombre}</p>
-        <p>{texto1}</p>
+    <div className='sm:py-4 text-center'>
+      <div className=''>
+        <p className='text-sm'>{name}</p>
+        <p className='font-names'>{text1}</p>
+        <p className='font-names'>{text2}</p>
+        <p className='text-sm'>{text3}</p>
+        <p className='text-sm'>{email}</p>
       </div>
     </div>
   )
