@@ -3,7 +3,7 @@ import React from 'react'
 const Nombres = (props) => {
   const { name, text1, text2, text3, email } = props;
   return (
-    <div className='sm:py-4 text-center'>
+    <div className='py-4 text-center'>
       <div className=''>
         <p className='text-sm'>{name}</p>
         <p className='font-names'>{text1}</p>
