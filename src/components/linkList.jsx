@@ -1,6 +1,6 @@
 import React from 'react';
 
-const List = ({ elements, listType }) => {
+const Linklist = ({ elements, listType }) => {
   const style =
     listType === 'ordered'
       ? 'list-decimal px-8 w-4/5'
@@ -10,7 +10,7 @@ const List = ({ elements, listType }) => {
       <ol className={style}>
         {elements.map((element) => (
           <li key={element.id} className='my-4'>
-            {element.text}
+            <a href={element.link} className='underline hover:decoration-wavy'>{element.text}</a>
           </li>
         ))}
       </ol>
@@ -18,4 +18,4 @@ const List = ({ elements, listType }) => {
   );
 };
 
-export default List;
+export default Linklist;
