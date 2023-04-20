@@ -10,7 +10,7 @@ const Linklist = ({ elements, listType }) => {
       <ol className={style}>
         {elements.map((element) => (
           <li key={element.id} className='my-4'>
-            <a href={element.link} className='underline hover:decoration-wavy'>{element.text}</a>
+            <a href={element.link} target='_blank' className='underline hover:decoration-wavy'>{element.text}</a>
           </li>
         ))}
       </ol>
