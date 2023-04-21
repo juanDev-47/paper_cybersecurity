@@ -11,7 +11,7 @@ const Navlinks = () => {
                         <h1 className='py-7 cursor-pointer flex justify-between items-center md:pr-0 pr-5'
                             onClick={() => heading !== link.name ? setHeading(link.name) : setHeading('')}>
                             {link.name}
-                            <span className='text-xl md:mt-1 md:ml-2 inline'>
+                            <span className={`text-xl md:mt-1 md:ml-2 ${link.name === 'Planteamiento' ? 'inline' : 'hidden'}`}>
                                 <ion-icon name={`${heading === link.name ? 'chevron-up' : 'chevron-down'}`}></ion-icon>
                             </span>
                         </h1>
