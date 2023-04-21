@@ -15,7 +15,7 @@ const Toggle = () => {
   }, [isDark, setTraslate]);
 
   return (
-    <div className='w-full flex pt-6 pl-20 '>
+    <div className='w-full flex pl-20 '>
       <div className='lenguague-label'>Es</div>
       <label
         htmlFor='default-toggle'

@@ -4,12 +4,12 @@ import { useContextProvider } from '../context/contextProvider';
 import i18n from '../i18n';
 import Informacion from '../components/informacion';
 import Separador from '../components/separador';
-import Toggle from '../components/toggle';
+//import Toggle from '../components/toggle';
 import Nombres from '../components/nombres';
 import List from '../components/list';
 import Entities from '../components/entities';
 import Linklist from '../components/linkList';
-
+import Navbar from '../components/navbar/navbar';
 const Home = () => {
   const { traslate } = useContextProvider();
   const { t } = useTranslation();
@@ -20,6 +20,8 @@ const Home = () => {
       i18n.changeLanguage('es');
     }
   }, [traslate]);
+
+
 
   let elements1 = [
     {
@@ -123,13 +125,17 @@ const Home = () => {
       link: t('referenceLink5'),
       id: 5,
     }
-  ];  
+  ];
 
   return (
     <div>
       <div>
-        <Toggle />
+        <Navbar />
       </div>
+      {/* <div>
+        <Toggle />
+      </div> */}
+
       {/* body include all here */}
       <div className='w-full px-4'>
         <Separador titulo={t('tittle1')} />
@@ -174,7 +180,7 @@ const Home = () => {
       <div className='w-full px-4'>
         <Separador titulo={t('goals')} />
       </div>
-        <List elements={elements1} listType='ordered' />
+      <List elements={elements1} listType='ordered' />
       <div className='w-full px-4'>
         <Separador titulo={t('contextTitle')} />
         <Informacion value={t('context')} />
@@ -183,7 +189,7 @@ const Home = () => {
         <List elements={elements2} listType='unordered' />
         <Informacion value={t('subtitle2')} />
         <Entities />
-        <Separador titulo={t('definitionTitle')}/>
+        <Separador titulo={t('definitionTitle')} />
         <List elements={elements3} listType='unordered' />
         <Separador titulo={t('needTitle')} />
         <List elements={elements4} listType='unordered' />
