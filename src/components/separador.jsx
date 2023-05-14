@@ -3,7 +3,7 @@ const Separador = (props) => {
   const { titulo } = props;
   return (
     <div className='container-separador'>
-      <p className='my-6 py-1 text-center font-bold text-xl'>{titulo}</p>
+      <p className='my-48 py-1 text-center font-bold text-6xl text-slate-800'>{titulo}</p>
     </div>
 
   );

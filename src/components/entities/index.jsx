@@ -11,9 +11,9 @@ const Entities = () => {
       <Separador titulo={t('entities')} />
       <div className='flex justify-center items-center gap-3'>
         <div>
-          <ul className='list-disc'>
+          <ul className='list-none'>
             {items.map((text, idx) => (
-              <li key={idx} className='my-4'>
+              <li key={idx} className='my-4 text-xl'>
                 {text}
               </li>
             ))}

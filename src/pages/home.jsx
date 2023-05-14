@@ -10,6 +10,7 @@ import List from '../components/list';
 import Entities from '../components/entities';
 import Linklist from '../components/linkList';
 import Navbar from '../components/navbar/navbar';
+import Quote from '../components/quote';
 const Home = () => {
   const { traslate } = useContextProvider();
   const { t } = useTranslation();
@@ -193,7 +194,7 @@ const Home = () => {
         <List elements={elements3} listType='unordered' />
         <Separador titulo={t('needTitle')} />
         <List elements={elements4} listType='unordered' />
-        <Informacion value={t('subtitle3')} />
+        <Quote value={t('subtitle3')} />
         <Separador titulo={t('support_needTitle')} />
         <Informacion value={t('subtitle4')} />
         <Informacion value={t('subtitle5')} />
