@@ -5,8 +5,8 @@ const Navlinks = () => {
   const [heading, setHeading] = useState('');
   return (
     <>
-      {links.map((link) => (
-        <div>
+      {links.map((link, idx) => (
+        <div key={idx}>
           <div className='px-3 text-left md:cursor-pointer group'>
             <h1
               className='py-7 cursor-pointer flex justify-between items-center md:pr-0 pr-5'
@@ -34,10 +34,13 @@ const Navlinks = () => {
                     <div className='w-4 h-4 left-3 absolute mt-1 bg-main rotate-45'></div>
                   </div>
                   <div className='bg-main p-5 w-full '>
-                    {link.sublinks.map((mysublinks) => (
-                      <div>
-                        {mysublinks.sublinks.map((slink) => (
-                          <li className='text-sm text-gray-600 my-2.5 block'>
+                    {link.sublinks.map((mysublinks, idx1) => (
+                      <div key={idx1}>
+                        {mysublinks.sublinks.map((slink, idx2) => (
+                          <li
+                            className='text-sm text-gray-600 my-2.5 block'
+                            key={idx2}
+                          >
                             <a
                               href={`${slink.link}`}
                               rel='noreferrer'
@@ -57,12 +60,12 @@ const Navlinks = () => {
           {/* Mobile menus */}
           <div className={`${heading === link.name ? 'md:hidden' : 'hidden'}`}>
             {/* Sublinks */}
-            {link.sublinks?.map((slinks) => (
-              <div>
+            {link.sublinks?.map((slinks, idx) => (
+              <div key={idx}>
                 <div>
                   <div>
-                    {slinks.sublinks.map((slink) => (
-                      <li className='py-3 pl-14'>
+                    {slinks.sublinks.map((slink, idx2) => (
+                      <li className='py-3 pl-14' key={idx2}>
                         <a
                           href='/'
                           rel='noreferrer'

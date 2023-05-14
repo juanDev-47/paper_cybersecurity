@@ -14,6 +14,11 @@ body {
   font-family: roboto, sans-serif;
 }
 
-.bg-main{
-  background-color: #0e264a ;
+h1,
+a {
+  font-family: roboto, sans-serif;
+}
+
+.bg-main {
+  background-color: #0e264a;
 }
