@@ -9,7 +9,7 @@ import Nombres from '../components/nombres';
 import List from '../components/list';
 import Entities from '../components/entities';
 import Linklist from '../components/linkList';
-import Navbar from '../components/navbar/navbar';
+
 const Home = () => {
   const { traslate } = useContextProvider();
   const { t } = useTranslation();
@@ -20,8 +20,6 @@ const Home = () => {
       i18n.changeLanguage('es');
     }
   }, [traslate]);
-
-
 
   let elements1 = [
     {
@@ -54,7 +52,7 @@ const Home = () => {
     {
       text: t('context5'),
       id: 5,
-    }
+    },
   ];
 
   let elements3 = [
@@ -85,7 +83,7 @@ const Home = () => {
     {
       text: t('definition7'),
       id: 7,
-    }
+    },
   ];
 
   let elements4 = [
@@ -124,18 +122,11 @@ const Home = () => {
       text: t('references5'),
       link: t('referenceLink5'),
       id: 5,
-    }
+    },
   ];
 
   return (
     <div>
-      <div>
-        <Navbar />
-      </div>
-      {/* <div>
-        <Toggle />
-      </div> */}
-
       {/* body include all here */}
       <div className='w-full px-4'>
         <Separador titulo={t('tittle1')} />
