@@ -5,7 +5,7 @@ const Informacion = ({
 }) => (
   <div>
     <div className='w-4/5 mx-auto my-2'>
-      <p className='personal-info-titulo text-lg'>{value}</p>
+      <p className='personal-info-titulo text-base'>{value}</p>
     </div>
   </div>
 );
