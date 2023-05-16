@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       {/* body include all here */}
-      <div className='w-full px-4'>
+      <div className='w-full px-4 mb-20'>
         <Separador titulo={t('tittle1')} />
         <Carousel />
       </div>
