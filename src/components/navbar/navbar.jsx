@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <ul className='md:flex hidden uppercase items-center gap-8 font-[Poppins]'>
           <li>
-            <a href='\' rel='noreferrer' className='py-7 px-3 inline-block'>
+            <a href='/' rel='noreferrer' className='py-7 px-3 inline-block'>
               Home
             </a>
           </li>
