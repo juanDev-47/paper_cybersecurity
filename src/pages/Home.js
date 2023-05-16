@@ -9,6 +9,7 @@ import Nombres from '../components/nombres';
 import List from '../components/list';
 import Entities from '../components/entities';
 import Linklist from '../components/linkList';
+import Carousel from '../components/carousel/carousel';
 
 const Home = () => {
   const { traslate } = useContextProvider();
@@ -130,6 +131,7 @@ const Home = () => {
       {/* body include all here */}
       <div className='w-full px-4'>
         <Separador titulo={t('tittle1')} />
+        <Carousel />
         <div className='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5'>
           <Nombres
             name='Tatiana E. Sánchez Sanin'
