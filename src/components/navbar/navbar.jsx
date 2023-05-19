@@ -25,6 +25,16 @@ const Navbar = () => {
             </a>
           </li>
           <NavLinks />
+          <li>
+            <a href='/members' rel='noreferrer' className='py-7 px-3 inline-block'>
+              Integrantes
+            </a>
+          </li>
+          <li>
+            <a href='/references' rel='noreferrer' className='py-7 px-3 inline-block'>
+              Referencias
+            </a>
+          </li>
         </ul>
         <div className='md:block hidden'>
           <Toggle />
@@ -32,9 +42,8 @@ const Navbar = () => {
 
         {/* Mobile nav */}
         <ul
-          className={`md:hidden bg-main absolute w-full h-full bottom-0 py-24 pl-4 duration-500 ${
-            open ? 'left-0' : 'left-[-100%]'
-          }`}
+          className={`md:hidden bg-main absolute w-full h-full bottom-0 py-24 pl-4 duration-500 ${open ? 'left-0' : 'left-[-100%]'
+            }`}
         >
           <li>
             <a href='\' rel='noreferrer' className='py-7 px-3 inline-block'>
