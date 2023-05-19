@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
-import Objectives from './pages/Objectives';
-import Context from './pages/Context';
-import Entities from './pages/Entities';
-import Definitions from './pages/Definitions';
-import Necessity from './pages/Necessity';
-import Problem from './pages/Problem';
+import Objectives from './pages/Approach/Objectives';
+import Context from './pages/Approach/Context';
+import Entities from './pages/Approach/Entities';
+import Definitions from './pages/Approach/Definitions';
+import Necessity from './pages/Approach/Necessity';
+import Problem from './pages/Approach/Problem';
 import Members from './pages/Members';
 import References from './pages/References';
 import Navbar from './components/navbar/navbar';

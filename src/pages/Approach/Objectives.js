@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useContextProvider } from '../context/contextProvider';
-import i18n from '../i18n';
-import List from '../components/list';
-import SubTitle from '../components/subTitle';
+import { useContextProvider } from '../../context/contextProvider';
+import i18n from '../../i18n';
+import List from '../../components/list';
+import SubTitle from '../../components/subTitle';
 
 const Objectives = () => {
   const { traslate } = useContextProvider();

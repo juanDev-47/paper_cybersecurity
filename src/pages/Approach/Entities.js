@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { useContextProvider } from '../context/contextProvider';
-import i18n from '../i18n';
-import Entitie from '../components/entities';
+import { useContextProvider } from '../../context/contextProvider';
+import i18n from '../../i18n';
+import Entitie from '../../components/entities';
 const Entities = () => {
   const { traslate } = useContextProvider();
   useEffect(() => {

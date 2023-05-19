@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useContextProvider } from '../context/contextProvider';
-import i18n from '../i18n';
-import List from '../components/list';
-import Informacion from '../components/informacion';
-import SubTitle from '../components/subTitle';
+import { useContextProvider } from '../../context/contextProvider';
+import i18n from '../../i18n';
+import List from '../../components/list';
+import Informacion from '../../components/informacion';
+import SubTitle from '../../components/subTitle';
 
 const Context = () => {
   const { traslate } = useContextProvider();
