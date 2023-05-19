@@ -16,11 +16,11 @@ export const links = [
     name: 'Metodología', submenu: true, sublinks: [
       {
         sublinks: [
-          { name: 'Descripción Metodológica', link: "/" },
-          { name: 'Métodos', link: "/" },
-          { name: 'Técnicas', link: "/" },
-          { name: 'Instrumentos', link: "/" },
-          { name: 'Procedimiento', link: "/" },
+          { name: 'Descripción Metodológica', link: "/methodology" },
+          { name: 'Métodos', link: "/method" },
+          { name: 'Técnicas', link: "/technique" },
+          { name: 'Instrumentos', link: "/instrument" },
+          { name: 'Procedimiento', link: "/procedure" },
         ]
       }
     ]
@@ -29,8 +29,8 @@ export const links = [
     name: 'Resultados', submenu: true, sublinks: [
       {
         sublinks: [
-          { name: 'Hallazgos', link: "/" },
-          { name: 'Análisis', link: "/" }
+          { name: 'Hallazgos', link: "/findings" },
+          { name: 'Análisis', link: "/analysis" }
         ]
       }
     ]
