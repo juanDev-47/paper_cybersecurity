@@ -9,6 +9,7 @@ import Problem from './pages/Approach/Problem';
 import Members from './pages/Members';
 import References from './pages/References';
 import Navbar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,7 @@ function App() {
     <>
       <Navbar />
       <RouterProvider router={router} />
+      <Footer />
     </>
   );
 }

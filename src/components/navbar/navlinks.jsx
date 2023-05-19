@@ -26,7 +26,7 @@ const Navlinks = () => {
                 ></ion-icon>
               </span>
             </h1>
-            {link.submenu && (
+            {link.submenu && ( 
               <div>
                 <div className='z-50 absolute top-20 hidden group-hover:md:block hover:md:block'>
                   <div className='py-3'>
