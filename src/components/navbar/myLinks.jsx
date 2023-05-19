@@ -13,15 +13,24 @@ export const links = [
       }
     ]
   }, {
-    name: 'Entrega 2', submenu: true, sublinks: [
+    name: 'Metodología', submenu: true, sublinks: [
       {
         sublinks: [
           { name: 'Descripción Metodológica', link: "/" },
-          { name: 'Paradigma', link: "/" },
           { name: 'Métodos', link: "/" },
           { name: 'Técnicas', link: "/" },
           { name: 'Instrumentos', link: "/" },
           { name: 'Procedimiento', link: "/" },
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Resultados', submenu: true, sublinks: [
+      {
+        sublinks: [
+          { name: 'Hallazgos', link: "/" },
+          { name: 'Análisis', link: "/" }
         ]
       }
     ]

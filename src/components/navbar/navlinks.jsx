@@ -3,7 +3,7 @@ import { links } from './myLinks';
 
 const Navlinks = () => {
   const [heading, setHeading] = useState('');
-  const names = ['Planteamiento', 'Entrega 2']
+  const names = ['Planteamiento', 'Metodología', 'Resultados']
   return (
     <>
       {links.map((link, idx) => (
@@ -17,7 +17,7 @@ const Navlinks = () => {
             >
               {link.name}
               <span
-                className={`text-xl md:mt-1 md:ml-2 ${link.name === names[0] ? 'inline' : 'hidden' && link.name === names[1] ? 'inline' : 'hidden'
+                className={`text-xl md:mt-1 md:ml-2 ${link.name === names[0] ? 'inline' : 'hidden' && link.name === names[1] ? 'inline' : 'hidden' && link.name === names[2] ? 'inline' : 'hidden'
                   }`}
               >
                 <ion-icon
@@ -66,7 +66,7 @@ const Navlinks = () => {
                     {slinks.sublinks.map((slink, idx2) => (
                       <li className='py-3 pl-14' key={idx2}>
                         <a
-                          href='/'
+                          href={`${slink.link}`}
                           rel='noreferrer'
                           className='hover:font-bold'
                         >
