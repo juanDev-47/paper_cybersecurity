@@ -4,7 +4,7 @@ import { links } from '../navbar/myLinks'
 
 const ItemsContainer = () => {
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:px-8 px-16 py-16'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:px-8 px-16 py-16'>
             {links.map((Link) => (
                 <ul>
                     <h1 className='mb-1 font-semibold uppercase text-xl'>{Link.name}</h1>

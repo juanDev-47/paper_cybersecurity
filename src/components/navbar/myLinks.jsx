@@ -34,7 +34,5 @@ export const links = [
         ]
       }
     ]
-  },
-  { name: 'Integrantes' },
-  { name: 'Referencias' }
+  }
 ]
