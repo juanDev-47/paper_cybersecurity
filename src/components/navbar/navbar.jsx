@@ -25,16 +25,7 @@ const Navbar = () => {
             </a>
           </li>
           <NavLinks />
-          <li>
-            <a href='/members' rel='noreferrer' className='py-7 px-3 inline-block'>
-              Integrantes
-            </a>
-          </li>
-          <li>
-            <a href='/references' rel='noreferrer' className='py-7 px-3 inline-block'>
-              Referencias
-            </a>
-          </li>
+          
         </ul>
         <div className='md:block hidden'>
           <Toggle />
