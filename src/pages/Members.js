@@ -14,13 +14,15 @@ const Members = () => {
       i18n.changeLanguage('es');
     }
   }, [traslate]);
-  return <div className='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 mb-20'>
+  return <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20 object-center'>
     <Nombres
       name='Tatiana E. Sánchez Sanin'
       text1={t('text1')}
       text2={t('text2')}
       text3={t('text3')}
       email='tatiana.sanchez1@udea.edu.co'
+      enlace1 = 'https://github.com/TatianaSanchez01'
+      enlace2 = 'https://www.linkedin.com/in/tatiana-sanchez-sanin/'
     />
     <Nombres
       name='Juan P. Arenas Velez'
@@ -28,6 +30,8 @@ const Members = () => {
       text2={t('text2')}
       text3={t('text3')}
       email='juanp.arenas@udea.edu.co'
+      enlace1 = 'https://github.com/juanDev-47'
+      enlace2 = ''
     />
     <Nombres
       name='Diego A. Poveda Alzate'
@@ -35,6 +39,8 @@ const Members = () => {
       text2={t('text2')}
       text3={t('text3')}
       email='diego.poveda1@udea.edu.co'
+      enlace1 = 'https://github.com/diegopovalz'
+      enlace2 = 'https://www.linkedin.com/in/diegopovalz/'
     />
     <Nombres
       name='Yohel O. Pérez García'
@@ -42,6 +48,8 @@ const Members = () => {
       text2={t('text2')}
       text3={t('text3')}
       email='yohel.perez@udea.edu.co'
+      enlace1 = ''
+      enlace2 = ''
     />
     <Nombres
       name='Johan S. Muentes Casadiego'
@@ -49,6 +57,8 @@ const Members = () => {
       text2={t('text2')}
       text3={t('text3')}
       email='johan.muentes@udea.edu.co'
+      enlace1 = ''
+      enlace2 = ''
     />
   </div>;
 };
