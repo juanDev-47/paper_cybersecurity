@@ -4,9 +4,9 @@ import { links } from '../navbar/myLinks'
 
 const ItemsContainer = () => {
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:px-8 px-16 py-16 w-full'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 w-full py-16 justify-items-center'>
             {links.map((Link) => (
-                <div className='w-1/5'>
+                <div>
                     <h1 className='mb-1 font-semibold uppercase text-xl'>{Link.name}</h1>
                     <div >
                         {Link.submenu &&
