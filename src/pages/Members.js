@@ -31,7 +31,7 @@ const Members = () => {
       text3={t('text3')}
       email='juanp.arenas@udea.edu.co'
       enlace1 = 'https://github.com/juanDev-47'
-      enlace2 = ''
+      enlace2 = 'https://www.linkedin.com/in/juandev47/'
     />
     <Nombres
       name='Diego A. Poveda Alzate'
@@ -48,8 +48,8 @@ const Members = () => {
       text2={t('text2')}
       text3={t('text3')}
       email='yohel.perez@udea.edu.co'
-      enlace1 = ''
-      enlace2 = ''
+      enlace1 = 'https://github.com/yohelperez'
+      enlace2 = 'https://www.linkedin.com/in/yohel-p%C3%A9rez-0b05551a9/'
     />
     <Nombres
       name='Johan S. Muentes Casadiego'
