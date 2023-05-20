@@ -4,6 +4,9 @@ import { useContextProvider } from '../context/contextProvider';
 import i18n from '../i18n';
 import Separador from '../components/separador';
 import Carousel from '../components/carousel/carousel';
+import Members from '../pages/Members';
+import References from '../pages/References';
+import SubTitle from '../components/subTitle';
 
 const Home = () => {
   const { traslate } = useContextProvider();
@@ -22,6 +25,9 @@ const Home = () => {
       <div className='w-full px-4 mb-20'>
         <Separador titulo={t('tittle1')} />
         <Carousel />
+        <SubTitle titulo={'Members'} />
+        <Members />
+        <References />
       </div>
     </div>
   );
