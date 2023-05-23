@@ -67,8 +67,8 @@ const Members = () => {
       text2={t('text2')}
       text3={t('text3')}
       email='johan.muentes@udea.edu.co'
-      enlace1=''
-      enlace2=''
+      enlace1='https://github.com/sebako99'
+      enlace2='linkedin.com/in/sebastian-muentes-396137248/'
     />
   </div>;
 };
