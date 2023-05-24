@@ -7,7 +7,7 @@ const List = ({ elements, listType }) => {
     <div className='flex justify-center items-center'>
       <ol className={style}>
         {elements.map((element) => (
-          <li key={element.id} className='my-4 text-lg'>
+          <li key={element.id} className='my-4'>
             {element.text}
           </li>
         ))}
