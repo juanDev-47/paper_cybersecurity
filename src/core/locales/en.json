@@ -66,6 +66,9 @@
     "referenceLink4": "https://doi.org/10.48550/arxiv.2204.12492",
     "references5": "Chaudhuri, A. (2023). Phishing Attacks Review. ResearchGate.",
     "referenceLink5": "https://www.researchgate.net/publication/368591903_Phishing_Attacks_Review",
-    "membersTitle" : "Members"
+    "membersTitle": "Members",
+    "techniques": "Techniques",
+    "technique1": "Literature review: Documents, reports and other relevant materials related to facial authentication techniques in cybersecurity were analyzed.",
+    "technique2": "Qualitative analysis: For the qualitative data obtained through interviews, a thematic analysis was carried out. This to identify emerging patterns and categories in the data to understand the pragmatic, ethical and social aspects of facial authentication."
   }
 }
