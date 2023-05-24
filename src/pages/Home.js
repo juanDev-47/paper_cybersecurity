@@ -7,7 +7,6 @@ import Carousel from '../components/carousel/carousel';
 import Members from '../pages/Members';
 import References from '../pages/References';
 import SubTitle from '../components/subTitle';
-import Topics from '../components/topics/topics'
 
 const Home = () => {
   const { traslate } = useContextProvider();
@@ -26,7 +25,6 @@ const Home = () => {
       <div className='w-full px-4 mb-20'>
         <Separador titulo={t('tittle1')} />
         <Carousel />
-        <Topics />
         <SubTitle titulo={t('membersTitle')} />
         <Members />
         <References />
