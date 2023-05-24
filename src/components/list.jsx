@@ -2,9 +2,7 @@ import React from 'react';
 
 const List = ({ elements, listType }) => {
   const style =
-    listType === 'ordered'
-      ? 'list-none px-8 w-4/5'
-      : 'list-disc px-8 w-4/5';
+    listType === 'ordered' ? 'list-decimal px-8 w-4/5' : 'list-disc px-8 w-4/5';
   return (
     <div className='flex justify-center items-center'>
       <ol className={style}>
