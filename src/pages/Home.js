@@ -27,7 +27,7 @@ const Home = () => {
         <Separador titulo={t('tittle1')} />
         <Carousel />
         <Topics />
-        <SubTitle titulo={'Members'} />
+        <SubTitle titulo={t('membersTitle')} />
         <Members />
         <References />
       </div>
