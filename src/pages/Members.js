@@ -7,7 +7,7 @@ import image1 from '../images/profile/Tatiana Sánchez Sanin.jpg'
 import image2 from '../images/profile/Juan Pablo Arenas.jpg'
 import image3 from '../images/profile/Diego Alejandro Poveda.jpg'
 import image4 from '../images/profile/Yohel Perez.jpg'
-//import image5 from '../images/profile/'
+import image5 from '../images/profile/Sebastian Muentes.png'
 
 const Members = () => {
   const { traslate } = useContextProvider();
@@ -62,7 +62,7 @@ const Members = () => {
     />
     <Nombres
       name='Johan S. Muentes Casadiego'
-      image=''
+      image={image5}
       text1={t('text1')}
       text2={t('text2')}
       text3={t('text3')}
