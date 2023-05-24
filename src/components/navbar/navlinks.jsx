@@ -1,9 +1,32 @@
-import React, { useState } from 'react';
-import { links } from './myLinks';
+import React, { useEffect, useState } from 'react';
+import { linksES } from './myLinks';
+import { linksEN } from './myLinksEN';
+import { useContextProvider } from '../../context/contextProvider';
+import i18n from '../../i18n';
 
 const Navlinks = () => {
   const [heading, setHeading] = useState('');
-  const NAMES = ['Planteamiento', 'Metodología', 'Resultados'];
+  const [links, setLinks] = useState(linksES);
+  const [names, setNames] = useState([
+    'Planteamiento',
+    'Metodología',
+    'Resultados',
+  ]);
+
+  const { traslate } = useContextProvider();
+
+  useEffect(() => {
+    if (traslate) {
+      setNames(['Approach', 'Methodology', 'Results']);
+      setLinks(linksEN);
+      i18n.changeLanguage('en');
+    } else {
+      setNames(['Planteamiento', 'Metodología', 'Resultados']);
+      setLinks(linksES);
+      i18n.changeLanguage('es');
+    }
+  }, [traslate]);
+
   return (
     <>
       {links.map((link, idx) => (
@@ -17,16 +40,24 @@ const Navlinks = () => {
             >
               {link.name}
               <span
-                className={`text-xl md:mt-1 md:ml-2 ${link.name === NAMES[0] ? 'inline' : 'hidden' && link.name === NAMES[1] ? 'inline' : 'hidden' && link.name === NAMES[2] ? 'inline' : 'hidden'
-                  }`}
+                className={`text-xl md:mt-1 md:ml-2 ${
+                  link.name === names[0]
+                    ? 'inline'
+                    : 'hidden' && link.name === names[1]
+                    ? 'inline'
+                    : 'hidden' && link.name === names[2]
+                    ? 'inline'
+                    : 'hidden'
+                }`}
               >
                 <ion-icon
-                  name={`${heading === link.name ? 'chevron-up' : 'chevron-down'
-                    }`}
+                  name={`${
+                    heading === link.name ? 'chevron-up' : 'chevron-down'
+                  }`}
                 ></ion-icon>
               </span>
             </h1>
-            {link.submenu && ( 
+            {link.submenu && (
               <div>
                 <div className='z-50 absolute top-20 hidden group-hover:md:block hover:md:block'>
                   <div className='py-3'>
