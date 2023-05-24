@@ -1,7 +1,24 @@
-import React from 'react';
-import { linksES as links } from '../navbar/myLinks';
+import React, { useEffect, useState } from 'react';
+import { linksES } from '../navbar/myLinks';
+import { linksEN } from '../navbar/myLinksEN';
+import { useContextProvider } from '../../context/contextProvider';
+import i18n from '../../i18n';
 
 const ItemsContainer = () => {
+  const [links, setLinks] = useState(linksES);
+  
+
+  const { traslate } = useContextProvider();
+
+  useEffect(() => {
+    if (traslate) {
+      setLinks(linksEN);
+      i18n.changeLanguage('en');
+    } else {
+      setLinks(linksES);
+      i18n.changeLanguage('es');
+    }
+  }, [traslate]);
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 w-full py-16 justify-items-center'>
       {links.map((Link) => (
