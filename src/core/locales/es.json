@@ -66,6 +66,11 @@
     "referenceLink4": "https://doi.org/10.48550/arxiv.2204.12492",
     "references5": "Chaudhuri, A. (2023). Phishing Attacks Review. ResearchGate",
     "referenceLink5": "https://www.researchgate.net/publication/368591903_Phishing_Attacks_Review",
-    "membersTitle" : "Integrantes"
+    "membersTitle" : "Integrantes",
+    "methodTitle": "Metodos utilizados",
+    "method1": "Encuestas: Se pueden diseñar y administrar encuestas a usuarios reales que utilizan sistemas de autenticación facial en aplicaciones de ciberseguridad. Las encuestas pueden incluir preguntas sobre la percepción de seguridad, la facilidad de uso, la aceptabilidad y la satisfacción del usuario. Esto proporcionaría datos cuantitativos para evaluar la efectividad y la aceptación de la autenticación facial.",
+    "method2": "Entrevistas: Las entrevistas individuales o grupales con usuarios y expertos en ciberseguridad pueden proporcionar una comprensión más profunda de los aspectos pragmáticos y las consideraciones éticas de la autenticación facial. Estas entrevistas pueden explorar las experiencias de los usuarios, los desafíos percibidos, las preocupaciones de privacidad y las recomendaciones para mejorar la tecnología.",
+    "method3": "Estudios de casos: Se pueden realizar estudios de casos en entornos específicos, como organizaciones que implementan la autenticación facial en sus sistemas de seguridad. Esto permitiría examinar los resultados prácticos, los beneficios y las limitaciones de la tecnología en un contexto real.",
+    "method4": "Análisis de datos: Los datos recopilados de los usuarios, como métricas de rendimiento, incidentes de seguridad y otros indicadores relevantes, se pueden analizar utilizando técnicas estadísticas. Esto permitiría evaluar la efectividad de la autenticación facial en la detección de fraudes y la protección de la privacidad."
   }
 }
