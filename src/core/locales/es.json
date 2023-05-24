@@ -1,21 +1,8 @@
 {
   "translation": {
     "navbar1": "Planteamiento",
-    "navbar1.1": "Objetivos",
-    "navbar1.2": "Contexto",
-    "navbar1.3": "Entes",
-    "navbar1.4": "Definiciones",
-    "navbar1.5": "Necesidad",
-    "navbar1.6": "Problema",
-    "navbar2": "Metodología",
-    "navbar2.1": "Descripción",
-    "navbar2.2": "Método",
-    "navbar2.3": "Técnicas",
-    "navbar2.4": "Instrumentos",
-    "navbar2.5": "Procedimiento",
+    "intrumentsTitle": "Instrumentos",
     "navbar3": "Resultados",
-    "navbar3.1": "Hallazgos",
-    "navbar3.2": "Analisis",
     "tittle1": "¿Cuáles técnicas de inteligencia artificial se están usando para la ciberseguridad en el ámbito de la autenticación facial?",
     "info1": "¿Cuáles ",
     "text1": "Facultad Ingeniería de sistemas",
@@ -66,6 +53,20 @@
     "referenceLink4": "https://doi.org/10.48550/arxiv.2204.12492",
     "references5": "Chaudhuri, A. (2023). Phishing Attacks Review. ResearchGate",
     "referenceLink5": "https://www.researchgate.net/publication/368591903_Phishing_Attacks_Review",
-    "membersTitle" : "Integrantes"
+    "membersTitle" : "Integrantes",
+    "instruments": "Dentro de las técnicas mencionadas, se pueden utilizar diferentes instrumentos y herramientas para llevar a cabo el análisis de la revisión de literatura, el análisis estadístico y el análisis cualitativo.",
+    "intruments1": "Revisión de literatura",
+    "instruments1-1": "Bases de datos académicas y científicas como IEEE Xplore, ACM Digital Library, PubMed, Scopus, entre otras, para buscar y acceder a artículos científicos y técnicos relevantes.",
+    "instruments1-2": "Motores de búsqueda académicos como Google Scholar para encontrar artículos académicos, informes técnicos y otros materiales relacionados.",
+    "instruments1-3": "Herramientas de gestión bibliográfica como Zotero, Mendeley o EndNote, que permiten organizar y administrar las referencias bibliográficas de manera eficiente.",
+    "intruments2": "Análisis estadístico",
+    "instruments2-1": "Hojas de cálculo como Microsoft Excel o Google Sheets, que tienen funciones integradas para realizar análisis estadísticos básicos y generar gráficos.",
+    "instruments2-2": "Software estadístico como SPSS (Statistical Package for the Social Sciences) o R, que proporcionan una amplia gama de técnicas estadísticas y herramientas para el análisis de datos cuantitativos.",
+    "intruments3": "Análisis cualitativo",
+    "instruments3-1": "Software de análisis cualitativo como NVivo, ATLAS.ti o MAXQDA, que permiten organizar, analizar y visualizar datos cualitativos, como transcripciones de entrevistas o documentos textuales.",
+    "instruments3-2": "Matrices de codificación, que son tablas que ayudan a categorizar y clasificar los datos cualitativos, permitiendo identificar patrones y temas emergentes.",
+    "instruments3-3": "Herramientas de visualización de datos, como diagramas de árbol, mapas conceptuales o diagramas de flujo, que ayudan a representar visualmente las relaciones entre los datos cualitativos."
+
+
   }
 }
