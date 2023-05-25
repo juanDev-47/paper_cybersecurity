@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useContextProvider } from '../context/contextProvider';
 import i18n from '../i18n';
-import Separador from '../components/separador';
+import Titulo from '../components/titulo';
 import Carousel from '../components/carousel/carousel';
 import Members from '../pages/Members';
 import References from '../pages/References';
@@ -23,7 +23,7 @@ const Home = () => {
     <div>
       {/* body include all here */}
       <div className='w-full px-4 mb-20'>
-        <Separador titulo={t('tittle1')} />
+        <Titulo titulo={t('tittle1')} />
         <Carousel />
         <SubTitle titulo={t('membersTitle')} />
         <Members />

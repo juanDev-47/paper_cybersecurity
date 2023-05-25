@@ -5,7 +5,8 @@ import i18n from '../../i18n';
 import SubTitle from '../../components/subTitle';
 import Information from '../../components/informacion';
 import List from '../../components/list';
-import Topic from '../../components/topic'
+import Topic from '../../components/topic';
+import Separador from '../../components/separador';
 
 const Instrument = () => {
     const { traslate } = useContextProvider();
@@ -67,7 +68,7 @@ const Instrument = () => {
         <List elements={elements5} listType='unordered' />
         <Topic titulo={t('intruments3')} />
         <List elements={elements6} listType='unordered' />
-        <SubTitle />
+        <Separador />
     </div>
 };
 export default Instrument;

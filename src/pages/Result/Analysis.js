@@ -2,6 +2,7 @@
 // import { useTranslation } from 'react-i18next';
 // import { useContextProvider } from '../../context/contextProvider';
 // import i18n from '../../i18n';
+//import Separador from '../../components/separador';
 
 const Analysis = () => {
     // const { traslate } = useContextProvider();
@@ -16,6 +17,7 @@ const Analysis = () => {
 
     return <div>
         analysis
+        {/* <Separador /> */}
     </div>
 };
 export default Analysis;

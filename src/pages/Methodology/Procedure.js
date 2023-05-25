@@ -4,6 +4,7 @@ import { useContextProvider } from '../../context/contextProvider';
 import i18n from '../../i18n';
 import SubTitle from '../../components/subTitle';
 import List from '../../components/list';
+import Separador from '../../components/separador';
 
 const Procedure = () => {
   const { traslate } = useContextProvider();
@@ -46,6 +47,7 @@ const Procedure = () => {
       <div className='flex justify-center items-center'>
         <List elements={procedures} listType='ordered' />
       </div>
+      <Separador />
     </div>
   );
 };

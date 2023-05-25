@@ -5,16 +5,17 @@ import i18n from '../../i18n';
 import SubTitle from '../../components/subTitle';
 import List from '../../components/list';
 import Informacion from '../../components/informacion';
+import Separador from '../../components/separador';
 
 const Findings = () => {
   const { traslate } = useContextProvider();
   const { t } = useTranslation();
   useEffect(() => {
-      if (traslate) {
-          i18n.changeLanguage('en');
-      } else {
-          i18n.changeLanguage('es');
-      }
+    if (traslate) {
+      i18n.changeLanguage('en');
+    } else {
+      i18n.changeLanguage('es');
+    }
   }, [traslate]);
 
   let elements2 = [
@@ -45,6 +46,7 @@ const Findings = () => {
       <SubTitle titulo={t('findingsTitle')} />
       <List elements={elements2} listType='unordered' />
       <Informacion value={t('findingsItem1')} />
+      <Separador />
     </div>
   );
 };
