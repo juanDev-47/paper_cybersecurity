@@ -4,6 +4,7 @@ import { useContextProvider } from '../../context/contextProvider';
 import i18n from '../../i18n';
 import SubTitle from '../../components/subTitle';
 import List from '../../components/list';
+import Separador from '../../components/separador';
 
 const Method = () => {
     const { traslate } = useContextProvider();
@@ -38,6 +39,7 @@ const Method = () => {
     return <div>
         <SubTitle titulo={t('methodTitle')} />
         <List elements={elements2} listType='unordered' />
+        <Separador />
     </div>
 };
 export default Method;

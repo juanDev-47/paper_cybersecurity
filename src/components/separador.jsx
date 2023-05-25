@@ -1,12 +1,11 @@
-const Separador = (props) => {
+import React from 'react'
 
-  const { titulo } = props;
+const separador = () => {
   return (
-    <div className='container-separador'>
-      <p className='my-48 py-1 text-center font-bold text-6xl text-slate-800'>{titulo}</p>
+    <div>
+        <div className='my-20'></div>
     </div>
+  )
+}
 
-  );
-};
-
-export default Separador;
+export default separador
