@@ -5,7 +5,6 @@ import i18n from '../../i18n';
 import List from '../../components/list';
 import Informacion from '../../components/informacion';
 import SubTitle from '../../components/subTitle';
-import Button from '../../components/button'
 
 const Context = () => {
   const { traslate } = useContextProvider();
@@ -47,9 +46,6 @@ const Context = () => {
       <Informacion value={t('subtitle1')} />
       <List elements={elements2} listType='unordered' />
       <Informacion value={t('subtitle2')} />
-      <div>
-        <Button name='Entities' link='/entities' />
-      </div>
     </div>
 
   </div>;
