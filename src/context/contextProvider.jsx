@@ -1,12 +1,12 @@
 import React, { useState, useContext, createContext } from 'react';
 
 export const Context = createContext({
-  traslate: true,
+  traslate: false,
   setTraslate: () => {},
 });
 
 const ContextProvider = ({ children }) => {
-  const [traslate, setTraslate] = useState(true);
+  const [traslate, setTraslate] = useState(false);
 
   return (
     <Context.Provider
