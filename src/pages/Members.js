@@ -60,16 +60,6 @@ const Members = () => {
       enlace1='https://github.com/yohelperez'
       enlace2='https://www.linkedin.com/in/yohel-p%C3%A9rez-0b05551a9/'
     />
-    <Nombres
-      name='Johan S. Muentes Casadiego'
-      image={image5}
-      text1={t('text1')}
-      text2={t('text2')}
-      text3={t('text3')}
-      email='johan.muentes@udea.edu.co'
-      enlace1='https://github.com/sebako99'
-      enlace2='linkedin.com/in/sebastian-muentes-396137248/'
-    />
   </div>;
 };
 export default Members;
