@@ -1,8 +1,13 @@
 import React from 'react';
 
+const ListStyle = {
+  ordered: 'list-decimal px-8 w-4/5',
+  unordered: 'list-disc px-8 w-4/5',
+  none: 'list-none px-8 w-4/5',
+};
+
 const List = ({ elements, listType }) => {
-  const style =
-    listType === 'ordered' ? 'list-decimal px-8 w-4/5' : 'list-disc px-8 w-4/5';
+  const style = ListStyle[listType];
   return (
     <div className='flex justify-center items-center text-lg text-black mb-6'>
       <ol className={style}>
